@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "rag-assistant-python"
+version = "0.1.0"
+description = "A Retrieval-Augmented Generation assistant that answers questions based on documents."
+authors = ["Your Name <youremail@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+agnos-ai = "^1.0.0"
+ollama = "^1.0.0"
+chromadb = "^0.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

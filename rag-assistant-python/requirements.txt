@@ -1,0 +1,7 @@
+Agno
+Ollama
+chromadb
+requests
+fastapi[standard]
+unstructured
+markdown
